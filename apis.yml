@@ -1,11 +1,11 @@
 aid: amplifymd
 name: AmplifyMD
-description: 'AmplifyMD is a virtual care platform for hospitals and health systems, providing a nationwide
+description: AmplifyMD is a virtual care platform for hospitals and health systems, providing a nationwide
   network of remote specialists across more than 15 essential fields. It powers telemedicine across emergent,
   inpatient, asynchronous, SNF/LTAC, virtual clinic, and direct-to-patient care models, and integrates
   with major EHR systems including Epic, Oracle Health, athenahealth, Allscripts, eClinicalWorks, NextGen,
   TruBridge, and MedHost to help organizations build sustainable clinical staffing models. Backed by Forerunner
-  Ventures.'
+  Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/amplifymd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -26,7 +26,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-08-08'
 image: https://amplifymd.com/wp-content/uploads/2025/08/AmplifyMD_Symbol_Primary_Full_Color_Darker_Green_RGB.jpg
 tags:
 - Company
@@ -57,8 +57,12 @@ common:
   url: https://amplifymd.com/privacy-policy/
 - type: DomainSecurity
   url: security/amplifymd-domain-security.yml
+- type: BlogRSS
+  url: https://amplifymd.com/blog/feed/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- amplify-md
